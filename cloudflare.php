@@ -33,7 +33,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan email, apikey nebo domena.",
 					  'action' => "zoneRegister",
 					  'success' => "false")
 			);
@@ -57,7 +56,6 @@ class CloudFlare{
 	    }else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan email, apikey nebo domena.",
 					  'action' => "zoneInfo",
 					  'success' => "false")
 			);	    	
@@ -79,7 +77,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan apikey, email, nebo zoneid.",
 					  'action' => "zoneRemove",
 					  'success' => "false")
 			);	
@@ -105,7 +102,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan email, apikey nebo domena.",
 					  'action' => "zoneDevMode",
 					  'success' => "false")
 			);
@@ -128,7 +124,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan email, apikey nebo domena.",
 					  'action' => "zoneDevMode",
 					  'success' => "false")
 			);
@@ -152,7 +147,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan email, apikey nebo zoneid.",
 					  'action' => "dnsList",
 					  'success' => "false")
 			);				
@@ -189,7 +183,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan typ zaznamu, domena zaznamu, content zaznamu, apikey, email nebo zoneid.",
 					  'action' => "dnsAdd",
 					  'success' => "false")
 			);					
@@ -226,7 +219,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan typ zaznamu, domena zaznamu, content zaznamu, apikey, email, recordid, nebo zoneid.",
 					  'action' => "dnsUpdate",
 					  'success' => "false")
 			);					
@@ -248,7 +240,6 @@ class CloudFlare{
 		}else{
 			echo json_encode(
 				array('error' => "c100",
-					  'message' => "Neni zadan recordid, apikey, email, recordid, nebo zoneid.",
 					  'action' => "dnsRemove",
 					  'success' => "false")
 			);	
