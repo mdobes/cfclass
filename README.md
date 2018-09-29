@@ -1,7 +1,7 @@
 # Simple CloudFlare API
 
 Simple PHP api for CloudFlare
-
+[beta](https://img.shields.io/badge/status-beta-yellow.svg?style=for-the-badge) [web](https://img.shields.io/badge/web-werwi.eu-brightgreen.svg?style=for-the-badge) 
 --- 
 ## Main init
 ```php
