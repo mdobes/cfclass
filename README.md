@@ -1,4 +1,4 @@
-# Simple CloudFlare API
+#CloudFlare API
 
 Simple PHP api for CloudFlare
 
@@ -74,7 +74,7 @@ $domain->email = ""; //Cloudflare Email
 $domain->zoneid = ""; // Domain ID (Domain id is in zoneInfo());
 $domain->dnsAdd('A', 'test.werwi.eu', '173.249.28.105', true); //Record type, domain, content, proxied on CloudFlare
 ```
-SRV Zaznam:
+SRV record:
 ```php
 array(
 	'type' => 'SRV',
