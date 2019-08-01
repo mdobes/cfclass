@@ -2,8 +2,8 @@
 
 Simple PHP class for Cloudflare API
  
-![beta](https://img.shields.io/badge/status-beta-yellow.svg?style=for-the-badge)
-![web](https://img.shields.io/badge/web-werwi.eu-brightgreen.svg?style=for-the-badge) 
+![stable](https://img.shields.io/badge/status-stable-brightgreen.svg?style=for-the-badge)
+![https://dobes.pw](https://img.shields.io/badge/web-dobes.pw-brightgreen.svg?style=for-the-badge) 
 --- 
 ## Main init
 ```php
