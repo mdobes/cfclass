@@ -2,10 +2,10 @@
 /**
  * PHP Cloudflare API
  *
- * @author Werwi (https://Werwi.xyz)
- * @copyright 2018-2019 © Werwi (https://Werwi.xyz)
+ * @author Michal Dobeš (michal@dobes.pw)
+ * @copyright 2018-2019 © Michal Dobeš (https://dobes.pw)
  *
- * @link https://Werwi.xyz
+ * @link https://dobes.pw
  */
 
 class CloudFlare{
