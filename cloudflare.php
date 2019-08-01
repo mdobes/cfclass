@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP Cloudflare API
+ * Simple PHP class for Cloudflare API
  *
  * @author Michal Dobeš (michal@dobes.pw)
  * @copyright 2018-2019 © Michal Dobeš (https://dobes.pw)
