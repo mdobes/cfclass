@@ -8,7 +8,7 @@ Simple PHP class for Cloudflare API
 ## Main init
 ```php
 $domain = new CloudFlare();
-$domain->apikey = ""; //Cloudflare API key
+$domain->apikey = ""; //Cloudflare API key, not API token!
 $domain->email = ""; //Cloudflare Email
 ```
 
