@@ -74,7 +74,7 @@ array(
 ## DNS record update
 ```php
 $domain->zoneid = ""; //Domain ID (Domain id is in zoneInfo());
-$domain->dnsUpdate('cb231ddd3092f3ed8...', 'A', 'test.werwi.eu', '173.249.28.105', true); //Record ID (in DNS record list), record type, content, proxied on CloudFlare
+$domain->dnsUpdate('cb231ddd3092f3ed8...', 'A', 'test.werwi.eu', '192.168.0.1', true); //Record ID (in DNS record list), record type, content, proxied on CloudFlare
 ```
 
 ## Remove DNS record
