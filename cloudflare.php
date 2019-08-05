@@ -31,7 +31,7 @@ class CloudFlare{
 			curl_exec($ch);
 	        curl_close($ch);
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "zoneRegister",
 					  'success' => "false")
@@ -54,7 +54,7 @@ class CloudFlare{
 
 	        curl_close($ch);
 	    }else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "zoneInfo",
 					  'success' => "false")
@@ -75,7 +75,7 @@ class CloudFlare{
 			curl_exec($ch);
 			curl_close($ch);
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "zoneRemove",
 					  'success' => "false")
@@ -100,7 +100,7 @@ class CloudFlare{
 			curl_exec($ch);
 	        curl_close($ch);
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "zoneDevMode",
 					  'success' => "false")
@@ -122,7 +122,7 @@ class CloudFlare{
 			curl_exec($ch);
 	        curl_close($ch);
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "zoneDevMode",
 					  'success' => "false")
@@ -145,7 +145,7 @@ class CloudFlare{
 
 	        curl_close($ch);
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "dnsList",
 					  'success' => "false")
@@ -181,7 +181,7 @@ class CloudFlare{
 				curl_exec($ch);
 		        curl_close($ch);				
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "dnsAdd",
 					  'success' => "false")
@@ -217,7 +217,7 @@ class CloudFlare{
 				curl_exec($ch);
 		        curl_close($ch);				
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "dnsUpdate",
 					  'success' => "false")
@@ -238,7 +238,7 @@ class CloudFlare{
 			curl_exec($ch);
 			curl_close($ch);
 		}else{
-			echo json_encode(
+			return json_encode(
 				array('error' => "c100",
 					  'action' => "dnsRemove",
 					  'success' => "false")

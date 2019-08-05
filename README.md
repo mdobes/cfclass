@@ -1,9 +1,7 @@
 # Cloudflare PHP Class
 
 Simple PHP class for Cloudflare API
- 
-![stable](https://img.shields.io/badge/status-stable-brightgreen.svg?style=for-the-badge)
-![https://dobes.pw](https://img.shields.io/badge/web-dobes.pw-brightgreen.svg?style=for-the-badge) 
+
 --- 
 ## Main init
 ```php
@@ -15,43 +13,43 @@ $domain->email = ""; //Cloudflare Email
 ## Register domain
 ```php
 $domain->name = ""; //Domain
-$domain->zoneRegister();
+echo $domain->zoneRegister();
 ```
 
 ## Information about domain
 ```php
 $domain->name = ""; //Domain
-$domain->zoneInfo();
+echo $domain->zoneInfo();
 ```
 
 ## Turn DEV Mode on domain
 ```php
 $domain->zoneid = ""; //Domain ID (Domain id is in zoneInfo());
-$domain->zoneDevMode('on'); //Value: on or off 
+echo $domain->zoneDevMode('on'); //Value: on or off 
 ```
 
 ## Information about DEV Mode on domain
 ```php
 $domain->zoneid = ""; //Domain ID (Domain id is in zoneInfo());
-$domain->zoneDevModeInfo();
+echo $domain->zoneDevModeInfo();
 ```
 
 ## Domain delete
 ```php
 $domain->zoneid = ""; //Domain ID (Domain id is in zoneInfo());
-$domain->zoneRemove();
+echo $domain->zoneRemove();
 ```
 
 ## DNS records list
 ```php
 $domain->zoneid = ""; //Domain ID (Domain id is in zoneInfo());
-$domain->dnsList();
+echo $domain->dnsList();
 ```
 
 ## Add DNS record
 ```php
 $domain->zoneid = ""; // Domain ID (Domain id is in zoneInfo());
-$domain->dnsAdd('A', 'test.werwi.eu', '173.249.28.105', true); //Record type, domain, content, proxied on CloudFlare
+echo $domain->dnsAdd('A', 'test.werwi.eu', '173.249.28.105', true); //Record type, domain, content, proxied on CloudFlare
 ```
 SRV record:
 ```php
@@ -74,11 +72,11 @@ array(
 ## DNS record update
 ```php
 $domain->zoneid = ""; //Domain ID (Domain id is in zoneInfo());
-$domain->dnsUpdate('cb231ddd3092f3ed8...', 'A', 'test.werwi.eu', '192.168.0.1', true); //Record ID (in DNS record list), record type, content, proxied on CloudFlare
+echo $domain->dnsUpdate('cb231ddd3092f3ed8...', 'A', 'test.werwi.eu', '192.168.0.1', true); //Record ID (in DNS record list), record type, content, proxied on CloudFlare
 ```
 
 ## Remove DNS record
 ```php
 $domain->zoneid = ""; // Domain ID (Domain id is in zoneInfo());
-$domain->dnsRemove('cb231ddd3092f3ed8...'); //Record ID (in DNS record list)
+echo $domain->dnsRemove('cb231ddd3092f3ed8...'); //Record ID (in DNS record list)
 ```
