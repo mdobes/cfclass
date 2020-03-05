@@ -3,7 +3,7 @@
  * Simple PHP class for Cloudflare API
  *
  * @author Michal Dobeš (michal@dobes.pw)
- * @copyright 2018-2019 © Michal Dobeš (https://dobes.pw)
+ * @copyright 2018-2020 © Michal Dobeš (https://dobes.pw)
  *
  * @link https://dobes.pw
  */
