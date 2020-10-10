@@ -6,7 +6,7 @@ Simple PHP class for Cloudflare API
 ## Main init
 You can require the class through Composer:
 ```sh
-composer require mdobes/cfclass
+composer require mdobes/cfclass:dev-master
 ```
 
 ```php

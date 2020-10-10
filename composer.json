@@ -19,7 +19,7 @@
     ],
     "support": {
         "issues": "https://github.com/mdobes/cfclass/issues",
-        "source": "https://sourceforge.net/p/simplehtmldom/repository/"
+        "source": "https://github.com/mdobes/cfclass/tree/master"
     },
     "autoload": {
         "classmap": [
