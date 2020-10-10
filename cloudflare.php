@@ -8,6 +8,7 @@
  * @link https://dobes.pw
  */
 
+namespace mdobes;
 class CloudFlare{
 
 	public $email;
