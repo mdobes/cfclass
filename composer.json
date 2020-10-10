@@ -1,0 +1,34 @@
+{
+    "name": "mdobes/cfclass",
+    "description": "Simple PHP class for Cloudflare API",
+    "keywords": [
+        "php",
+        "cloudflare",
+        "api",
+        "cloudflare-api",
+        "cloudflare-php-simple-api",
+        "simple-api"
+    ],
+    "homepage": "https://github.com/mdobes/cfclass",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Dobeš",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mdobes/cfclass/issues",
+        "source": "https://sourceforge.net/p/simplehtmldom/repository/"
+    },
+    "autoload": {
+        "classmap": [
+            "cloudflare.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}

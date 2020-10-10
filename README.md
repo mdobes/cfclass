@@ -4,8 +4,13 @@ Simple PHP class for Cloudflare API
 
 --- 
 ## Main init
+You can require the class through Composer:
+```sh
+composer require mdobes/cfclass
+```
+
 ```php
-$domain = new CloudFlare();
+$domain = new mdobes\CloudFlare();
 $domain->apikey = ""; //Cloudflare API key, not API token!
 $domain->email = ""; //Cloudflare Email
 ```
